@@ -1,0 +1,8 @@
+requirements: sbt (0.7.4 or greater)
+
+to build:
+- cd sopts/
+- sbt update compile test package
+
+usage: src/main/scala/org/sopts/examples.scala
+
